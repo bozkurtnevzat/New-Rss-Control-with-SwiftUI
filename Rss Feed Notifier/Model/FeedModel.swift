@@ -11,5 +11,5 @@ struct FeedModel: Identifiable, Codable {
     var id = UUID()
     var title: String
     var url: String
-    var lastSeen: Date?
+    var lastSeen: Date
 }

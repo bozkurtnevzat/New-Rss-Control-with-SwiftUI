@@ -82,7 +82,7 @@ class FeedDetailViewModel: ObservableObject {
                 
                 
                 if let filterDate = filterDate {
-                    filteredData = filteredData.filter { item in return (item.date! > filterDate) }
+                    filteredData = filteredData.filter { item in return (item.date ?? Date.now > filterDate) }
                     self.data += filteredData
                 } else {
                     self.data += filteredData
