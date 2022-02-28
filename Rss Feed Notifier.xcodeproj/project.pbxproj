@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21526F827CD615F009974E7 /* SAWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21526F627CD615F009974E7 /* SAWebView.swift */; };
+		F21526F927CD615F009974E7 /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21526F727CD615F009974E7 /* String+Shortcuts.swift */; };
 		F216AF1B27CAA92C00C1639A /* NewFeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F216AF1A27CAA92C00C1639A /* NewFeedsView.swift */; };
 		F218531927C6AE7F00814D3E /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218531827C6AE7F00814D3E /* FeedModel.swift */; };
 		F218531B27C6AEA100814D3E /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218531A27C6AEA100814D3E /* FeedViewModel.swift */; };
-		F24F78FF27C6E24300281D91 /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F78FE27C6E24300281D91 /* String+Shortcuts.swift */; };
 		F271686627C5119800E79086 /* Rss_Feed_NotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271686527C5119800E79086 /* Rss_Feed_NotifierApp.swift */; };
 		F271686827C5119800E79086 /* FeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271686727C5119800E79086 /* FeedListView.swift */; };
 		F271686A27C5119900E79086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F271686927C5119900E79086 /* Assets.xcassets */; };
@@ -20,14 +21,14 @@
 		F2EEDEE227C95D56001F5C19 /* FeedDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EEDEE127C95D56001F5C19 /* FeedDetailModel.swift */; };
 		F2EEDEE427C95D81001F5C19 /* FeedDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EEDEE327C95D81001F5C19 /* FeedDetailViewModel.swift */; };
 		F2EEDEE727C961F4001F5C19 /* FeedListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EEDEE627C961F4001F5C19 /* FeedListItem.swift */; };
-		F2EEDEE927C966E0001F5C19 /* SAWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EEDEE827C966E0001F5C19 /* SAWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F21526F627CD615F009974E7 /* SAWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAWebView.swift; sourceTree = "<group>"; };
+		F21526F727CD615F009974E7 /* String+Shortcuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
 		F216AF1A27CAA92C00C1639A /* NewFeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeedsView.swift; sourceTree = "<group>"; };
 		F218531827C6AE7F00814D3E /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
 		F218531A27C6AEA100814D3E /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
-		F24F78FE27C6E24300281D91 /* String+Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
 		F271686227C5119800E79086 /* Rss Feed Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rss Feed Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F271686527C5119800E79086 /* Rss_Feed_NotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rss_Feed_NotifierApp.swift; sourceTree = "<group>"; };
 		F271686727C5119800E79086 /* FeedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListView.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		F2EEDEE127C95D56001F5C19 /* FeedDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailModel.swift; sourceTree = "<group>"; };
 		F2EEDEE327C95D81001F5C19 /* FeedDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailViewModel.swift; sourceTree = "<group>"; };
 		F2EEDEE627C961F4001F5C19 /* FeedListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListItem.swift; sourceTree = "<group>"; };
-		F2EEDEE827C966E0001F5C19 /* SAWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F24F790027C6E25400281D91 /* Extension */ = {
+		F21526F527CD6126009974E7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				F2EEDEE827C966E0001F5C19 /* SAWebView.swift */,
-				F24F78FE27C6E24300281D91 /* String+Shortcuts.swift */,
+				F21526F627CD615F009974E7 /* SAWebView.swift */,
+				F21526F727CD615F009974E7 /* String+Shortcuts.swift */,
 			);
-			name = Extension;
-			path = View;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F271685927C5119800E79086 = {
@@ -88,8 +87,8 @@
 				F271687827C5128000E79086 /* ViewModel */,
 				F271687727C5124200E79086 /* View */,
 				F2EEDEE527C961DE001F5C19 /* Items */,
-				F24F790027C6E25400281D91 /* Extension */,
 				F271686927C5119900E79086 /* Assets.xcassets */,
+				F21526F527CD6126009974E7 /* Extension */,
 				F271686B27C5119900E79086 /* Preview Content */,
 			);
 			path = "Rss Feed Notifier";
@@ -216,12 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F218531B27C6AEA100814D3E /* FeedViewModel.swift in Sources */,
-				F2EEDEE927C966E0001F5C19 /* SAWebView.swift in Sources */,
 				F216AF1B27CAA92C00C1639A /* NewFeedsView.swift in Sources */,
 				F271686827C5119800E79086 /* FeedListView.swift in Sources */,
 				F218531927C6AE7F00814D3E /* FeedModel.swift in Sources */,
 				F271687A27C5250500E79086 /* FeedDetailView.swift in Sources */,
-				F24F78FF27C6E24300281D91 /* String+Shortcuts.swift in Sources */,
+				F21526F927CD615F009974E7 /* String+Shortcuts.swift in Sources */,
+				F21526F827CD615F009974E7 /* SAWebView.swift in Sources */,
 				F2EEDEE727C961F4001F5C19 /* FeedListItem.swift in Sources */,
 				F2EEDEE227C95D56001F5C19 /* FeedDetailModel.swift in Sources */,
 				F271686627C5119800E79086 /* Rss_Feed_NotifierApp.swift in Sources */,
