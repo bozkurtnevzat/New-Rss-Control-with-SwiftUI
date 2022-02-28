@@ -94,7 +94,7 @@ class FeedDetailViewModel: ObservableObject {
         }
     }
     
-    func getNewData(feedModel: [FeedModel], showAll: Bool = false) {
+    func getNewData(feedModel: [FeedModel]) {
         self.data = []
         for feed in feedModel {
             self.getData(url: feed.url, filterDate: feed.lastSeen)
